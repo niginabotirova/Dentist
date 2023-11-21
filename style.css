@@ -1,0 +1,98 @@
+.gradient-background {
+    background: linear-gradient(300deg, #b7dce9, #dadada, rgb(172, 194, 196));
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .fs-4{
+    font-family: 'Bebas Neue', sans-serif;
+  }
+
+  .nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: #9babc2;
+}
+
+.nav {
+    --bs-nav-link-color: #fff;
+}
+
+.rounded-lg-3 {
+    border-radius: 10px;
+}
+
+.col-lg-4 {
+    border-radius: 10px;
+}
+
+
+.display-4 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #9eb0cb;
+    --bs-btn-border-color: #a0a8b4;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(150, 160, 175);
+    --bs-btn-hover-border-color: #98a6bc;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: 0;
+    --bs-btn-active-border-color: #949daa;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #8593a9;
+    --bs-btn-disabled-border-color: #a2abb8;
+}
+
+
+.text-body-emphasis1 {
+    font-family: 'Bebas Neue', sans-serif; 
+    text-align: center;
+}
+
+.col-lg-8 {
+    text-align: center;  
+}
+
+.image2 {
+    border-radius: 50%;
+    height: 150px;
+}
+
+.text-bg-primary {
+    color: #fff!important;
+    background-color: #98a6bc;
+}
+
+.card {
+    --bs-card-title-color: #98a6bc;
+    --bs-card-cap-color: #98a6bc;
+    --bs-card-color: #98a6bc;
+   
+}
+
+.btn {
+    color: black;
+    border: var(--bs-btn-border-width) solid black;
+}
+
+.text-bg-primary {
+    color: #fff!important;
+    background-color: #98a6bc!important;
+}
